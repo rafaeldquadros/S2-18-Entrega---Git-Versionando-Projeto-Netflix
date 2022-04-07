@@ -1,0 +1,102 @@
+/*Fundo*/
+body{
+    background-color: black;
+    margin-top: 100px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/*imagem_do_kenzeflix*/
+
+.Logo{
+    display: flex;
+    justify-content: center;
+}
+.Logo__img{
+
+}
+
+/*Frase de Pergunta*/
+
+.Quem_esta_assistindo{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+
+}
+.Quem_esta_assistindo .Quem_esta_assistindo__h2{
+    color: beige;
+}
+
+/*Lista de Usuarios*/
+
+.usuarios{
+
+ width: 100%;
+ margin: 0 auto;
+}
+.usuarios__lista{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.usuarios__lista__item{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+
+}
+.usarios__lista__figure{
+    max-width: 160px;
+    max-height: 160px;
+}
+.usarios__lista__img{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+}
+.usarios__lista__img:hover{
+    transform: scale(120%);
+    cursor: pointer;
+}
+.usarios__lista__img_opacity{
+    width: 160px;
+    height: 160px;
+    opacity: 0.3;
+    overflow: hidden;
+
+}
+.usarios__lista__img_opacity:hover{
+    transform: scale(120%);
+    opacity: 2;
+    
+}
+
+.usuarios__lista_paragrafo{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Botão de Gerenciar Perfis*/
+
+.gerenciar{
+    display: flex;
+    justify-content: center;
+}
+.gerenciar__btn{
+    margin-top: 100px;
+    width: 192px;
+    height: 47px;
+    background: black;
+    color: white;
+    border: 1.5px solid #FFFFFF;
+}
+.gerenciar__btn:hover{
+    background-color: #FFFFFF;
+    color: black;
+    cursor: pointer;
+
+}
